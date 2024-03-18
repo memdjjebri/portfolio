@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <img src="C:\Users\memed\Desktop\potfolio\20240101_182010.jpg"
+            alt="photo">
+        <h1>JEBRI Mohamed</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://odyssey.wildcodeschool.com/profiles/83455" target="_blank">Odyseey</a></li>
+                <li><a href="https://github.com/memdjjebri" target="_blank">github</a></li>
+                <button class="theme">Jour/Nuit</button>
+        </nav>
+
+
+
+    </header>
+
+    <section id="about">
+        <h2>En quelques mots</h2>
+        <p>Je suis un développeur web débutant est un professionnel passionné par la création de sites et
+            d'applications
+            web. Je suis enthousiaste à l'idée d'apprendre de nouveaux langages de programmation tels que HTML, CSS
+            et
+            JavaScript, et motivé pour acquérir des compétences en développement web. Je suis curieux et
+            ouvert à explorer de nouvelles technologies et frameworks pour améliorer mes capacités et ma polyvalence
+            dans le domaine.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <p>projet 1 Frise Chronologique</p>
+        <p>projet 2 Portfolio</p>
+
+    </section>
+    <h2>Contact</h2>
+    <form id="contact-form" method="post" action="send_email.php">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Mon Portfolio/ JEBRI</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
